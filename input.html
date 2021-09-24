@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    p {
+        padding-left: 185px;
+    }
+
+    body {
+        background-color: rgb(218, 19, 19);
+        color: white;
+    }
+
+    h2 {
+        text-align: center;
+        color: black;
+    }
+
+    #img1 {
+        float: right;
+
+    }
+</style>
+
+<body>
+
+
+    <h2>Registration Form</h2>
+    <input type="image" src="assets/nature.jpg" width="800px" height="600px" id="img1" />
+    <form>
+
+
+        <table>
+            <tr>
+                <td>First Name </td>
+                <td></td>
+                <td><input type="text" name="first" placeholder="First Name" value="Vismaya" required autofocus></td>
+            </tr>
+            <tr>
+                <td>Last Name </td>
+                <td></td>
+                <td><input type="text" name="last" placeholder="Last Name" value="Ebin" required /></td>
+            </tr>
+            <tr>
+                <td>Phone Number </td>
+                <td></td>
+                <td><input type="number" name="phone" placeholder="Phone Number" value="8848342980" required /></td>
+            </tr>
+            <tr>
+                <td>Alternate Number </td>
+                <td></td>
+                <td><input type="tel" name="alternatephone" placeholder="Alternate Number" value="9961669888"
+                        required /></td>
+            </tr>
+            <tr>
+                <td>Sex </td>
+                <td></td>
+                <td><input type="radio" name="sex" checked="checked"><span>Male</span></td>
+                <td><input type="radio" name="sex"><span>Female</span><br></td>
+            </tr>
+            <tr>
+                <td>Email </td>
+                <td></td>
+                <td> <input type="email" value="abc@gmail.com"></td>
+            </tr>
+            <tr>
+                <td>Password </td>
+                <td></td>
+                <td> <input type="password" value="password"></td>
+            </tr>
+            <tr>
+                <td>Time </td>
+                <td></td>
+                <td> <input type="time" value="13:30"></td>
+            </tr>
+            <tr>
+                <td>Date </td>
+                <td></td>
+                <td> <input type="date" value="2013-01-08"></td>
+            </tr>
+            <tr>
+                <td>Date of Birth </td>
+                <td></td>
+                <td> <input type="month" name="month" min="2022-03" value="2030-12"></td>
+            </tr>
+
+            <tr>
+                <td>Select Current Day</td>
+                <td></td>
+                <td><input type="week" name="week" value="2022-W01" required /></td>
+            </tr>
+
+            <tr>
+
+                <td>Select your favourite color</td>
+                <td></td>
+                <td> <input type="color"><br></td>
+            </tr>
+        </table>
+        <table>
+            <div>
+                <span>Known Languages</span>
+                <p><input type="checkbox" name="html" checked="true" />HTML</p>
+                <p><input type="checkbox" name="Css" checked="checked" />CSS</p>
+                <p><input type="checkbox" name="JS" />Javascript</p>
+                <p><input type="checkbox" name="Java" />Java</p>
+                <p><input type="checkbox" name="Python" />Python</p>
+                <p><input type="checkbox" name="React" />React</p>
+                <p><input type="checkbox" name="Angular" />Angular</p>
+
+
+            </div>
+            <tr>
+                <td><label> Preffered Location</label></td>
+                <td></td>
+                <td>
+                    <select id="loc" name="loc">
+                        <option value="Chennai">Chennai</option>
+                        <option value="Kerala" selected>Kerala</option>
+                        <option value="Banglore">Banglore</option>
+                        <option value="Trivandrum">Trivandrum</option>
+                </td>
+            </tr>
+            <tr>
+                <td>Knowledge Level</td>
+                <td></td>
+                <td> <input type="range" min="1" max="100" value="10"></td>
+            </tr>
+            <tr>
+                <td>Upload your Resume</td>
+                <td></td>
+                <td><input type="file" name="myResume"
+                        value="D:/GUIV-ZEN_Class/GUVI-Assignments/HTML-22-SEP-2021/abc.txt" /></td>
+                <!--The hidden field is not shown to the user, but the data is sent when the form is submitted.-->
+                <td><input type="hidden" name="hiddenValue" value="1234" /></td>
+            </tr>
+            <tr>
+                <td>Enter the URL</td>
+                <td></td>
+                <td> <input type="url" id="homepage" name="homepage" placeholder="https://www.google.com"
+                        value="https://www.google.com"></td>
+            </tr>
+            <tr>
+                <td>Search Google</td>
+                <td></td>
+                <td> <input type="search" id="gsearch" value="Google" name="gsearch"></td>
+            </tr>
+            <tr>
+
+                <td> <input type="reset"><br></td>
+                <td> <input type="submit"><br></td>
+                <td> <input type="button" value="Close"><br></td>
+            </tr>
+
+        </table>
+
+    </form>
+    <li> <a href="./health-chart.html" target="_blank">HEALTH CHART</a></li>
+    <li> <a href="./contact-us.html" target="_blank">CONTACT US</a></li>
+   
+    <li> <a href="./fix.html" target="_blank">UL & LI</a></li>
+
+</body>
+
+</html>
